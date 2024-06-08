@@ -1,0 +1,8 @@
+public class PowerOfTwoMaxHeap {
+    private ArrayList<Integer> heap;
+    private int degree;
+
+    public PowerOfTwoMaxHeap(int degree) {
+	this.heap = new ArrayList<>();
+	this degree = degree;
+    }
